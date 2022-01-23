@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biddut Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Biddut Bill Calculator</h1>
+        <div class="conten">
+            <div class="input">
+                <label for="">Unit</label>
+                <input id="input" type="text" placeholder="Type Your Used Unit">
+                <label for="">Taka</label>
+                <input id="result" type="text" placeholder="Your Biddut Bill" disabled>
+            </div>
+            <div class="btn">
+            <button onclick="curentBill()">Check</button>
+            <button onclick="reset()" id="reset" >Reset</button>
+          </div>
+        </div>
+    </div>
+    
+    <script src="biddutBill.js"></script>
+</body>
+</html>
